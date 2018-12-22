@@ -2,7 +2,7 @@
 # dailycheck.sh
 # nodes operation check by sensor_engine.log
 # Billy Hsia
-# fuction: calulate yesterday n3, n4, LQI(avg,sd), n2(avg,sd)
+# fuction: calulate yesterday u3(avg,sd), u4(avg,sd), LQI(avg,sd), n2(avg,sd)
 # fix record
   # 2018/12/17 first version
   # 2018/12/20 all/each node report
