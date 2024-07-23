@@ -8,7 +8,7 @@
 
 #!/bin/bash
 # 设置关键词
-keywords=("pz" "fs" "bs" "bs_min" "switch_level")
+keywords=("status:206")
 
 # 提示用户输入起始和结束日期时间
 read -p "請輸入起始日期和時間 (格式: MM-DD HH:MM): " start_input
@@ -29,6 +29,7 @@ for keyword in "${keywords[@]}"; do
 done
 echo
 
+
 while read -r mac; do
     # 打印 MAC 地址
     echo -ne "$mac"
@@ -38,6 +39,14 @@ while read -r mac; do
         echo -ne "\t$count"
     done
     echo
-done < mac_tr25_1.txt
+done < mac_tr25_1_capital.txt
+
+
+
+
+
+
+
+
 
 
