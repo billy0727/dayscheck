@@ -3,7 +3,7 @@
 # 確保提供了正確數量的參數
 if [ "$#" -ne 1 ]; then
     echo "使用方法: $0 <日期>"
-    echo "日期格式: YYYY-MM-DD"
+    echo "例如: sudo bash $0 2024-11-24"
     exit 1
 fi
 
